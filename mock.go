@@ -12,7 +12,7 @@ import (
 	"google.golang.org/grpc/test/bufconn"
 )
 
-// ClientMocks contains all the info needed to mock client calls.
+// ClientMock contains all the info needed to mock client calls.
 type ClientMock struct {
 	methods map[string]reflect.Value
 }
